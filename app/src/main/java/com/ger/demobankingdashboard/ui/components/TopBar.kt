@@ -43,7 +43,7 @@ fun TopBAr() {
             horizontalAlignment = Alignment.Start,
         ) {
             Text(
-                text = "Good morning, Alex",
+                text = "Good morning, Germán",
                 style = TextStyle(
                     fontSize = 19.sp,
                     lineHeight = 24.7.sp,
@@ -108,8 +108,13 @@ fun TopBAr() {
             Column(
                 Modifier
 
-                    .background(gradientBeigeBrush, shape = RoundedCornerShape(size = 50.5.dp)).clip(RoundedCornerShape(size = 50.5.dp))
-                    .shadow(elevation = 14.dp, spotColor = Color(0x8802091B), ambientColor = Color(0x8802091B))
+                    .background(gradientBeigeBrush, shape = RoundedCornerShape(size = 50.5.dp))
+                    .clip(RoundedCornerShape(size = 50.5.dp))
+                    .shadow(
+                        elevation = 14.dp,
+                        spotColor = Color(0x8802091B),
+                        ambientColor = Color(0x8802091B)
+                    )
                     .width(37.dp)
                     .height(37.dp),
 
@@ -121,18 +126,13 @@ fun TopBAr() {
                     style = TextStyle(
                         fontSize = 10.sp,
                         lineHeight = 15.sp,
-                       // fontFamily = FontFamily(Font(R.font.manrope)),
+                        // fontFamily = FontFamily(Font(R.font.manrope)),
                         fontWeight = FontWeight(800),
                         color = Color(0xFFFFFFFF),
                         textAlign = TextAlign.Center,
                     )
                 )
             }
-
-
-
-
-
 
 
         }
