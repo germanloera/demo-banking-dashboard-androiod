@@ -17,4 +17,11 @@ val DarkBlue22 = Color(0xFF071222)
 val DarkBlue11 = Color(0xFF030811)
 
 
+
 val gradientBrushBG = Brush.verticalGradient(colors = listOf(DarkBlue30,DarkBlue22,DarkBlue11))
+
+
+val BeigeBC = Color(0xFFD7C9BC)
+val Beige46 = Color(0xFF735546)
+
+val gradientBeigeBrush = Brush.verticalGradient(colors = listOf(BeigeBC,Beige46))
